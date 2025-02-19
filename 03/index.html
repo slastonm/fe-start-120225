@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>
+        inline tag without styles
+    </span>
+    <div>
+        block tag without styles
+    </div>
+    <!-- semantically correct tag without styles -->
+    <header>
+        Top site part
+        <nav>
+            Navigation part
+        </nav>        
+    </header>
+
+    <main>
+        Main site part
+        <section>
+            section part
+        </section>
+        <section>
+            section 2 part
+        </section>
+        <aside>
+            aside part
+        </aside>
+        <article>
+            article part
+        </article>
+    </main>
+
+    <footer>
+        Bottom site part
+    </footer>
+
+    <ul>
+
+        <li>
+            <h3>
+                List item 1
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, suscipit.
+            </p>
+        </li>
+    </ul>
+
+    <table border="4" style="width: 100%;">
+        <thead>
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Skills
+                </th>
+                <!-- 3 th tag -->
+                <th>
+                    Age 
+                </th>
+                <th colspan="2">
+                    Projects /
+                <!-- </th>
+                <th> -->
+                    Email
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- 3 td -->
+                <td>
+                    1
+                </td>
+                <td>
+                    John Doe
+                </td>
+                <td>
+                    PHP, JS, HTML, CSS
+                </td>
+                <td></td>
+                <td>
+                    super project
+                </td>
+                <td rowspan="3">
+                    test@gemail.com
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Donald Don
+                </td>
+                <td>
+                    HTML, CSS
+                </td>
+                <td>
+                    25
+                </td>
+                <td></td>
+                <!-- <td>
+                    test@gemail.com
+                </td> -->
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    Anna Don
+                </td>
+                <td>
+                    HTML, CSS
+                </td>
+                <td>
+                    35
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>
+        Form
+    </h3>
+    <form action="">
+        <!-- block -->
+        <label for="name">
+            Name
+        </label>
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+        <div>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <label for="password">password</label>
+        <input type="password" id="password">        
+        <br>
+        <label for="coment">
+            Coment text
+        </label>
+        <textarea disabled  id="coment" cols="100" rows="5"></textarea>
+        <br>
+        <select name="select" id="select">
+            <option value="1">Chose optio 1</option>
+            <option value="2">Chose optio 2</option>
+            <option value="3">Chose optio 3</option>
+        </select>
+        <br>
+        <div>
+            <label for="selfdelivery">
+                Self delivery
+            </label>
+            <input type="radio" checked name="delivery" id="selfdelivery">
+        </div>
+        <div>
+            <label for="Boxdelivery">
+                Box delivery
+            </label>
+            <input type="radio" name="delivery" id="Boxdelivery">
+        </div>
+        <h5>
+            Pizza topings
+        </h5>
+        <div>
+            <label for="cheese">
+                Cheese toping
+            </label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </div>
+        <br>
+        <div>
+            <label for="mashrooms">
+                mashrooms toping
+            </label>
+            <input disabled type="checkbox" name="mashrooms" id="mashrooms">
+        </div>
+        <br>
+        <div>
+            <label for="meate">
+                meate toping
+            </label>
+            <input type="checkbox" name="meate" id="meate">
+        </div>
+        <br>
+        <button disabled >
+            Sipmle button
+        </button>
+        <input type="submit" value="Submit data from form">
+        <input type="reset" value="Reset form">
+    </form>
+    <div>
+        <h5>
+            Product name
+        </h5>
+        <p>
+            Lorem ipsum dolor sit.
+        </p>
+        <a href="#">
+            More info
+        </a>
+        <button>
+            Buy now
+        </button>
+    </div>
+    <!-- <h1>
+        Heading 1
+    </h1>
+    <h3>
+        Heading 3
+    </h3>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptas!
+    </p>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul> -->
+    <img src="img/smile.png" width="300" height="300" alt="Not found image">
+    <img src="img/smile.pn" alt="Not found image">
+    <img src="img/browsers.jpg" alt="Browser info">
+    <div>
+        <audio controls>
+            <source src="mp3/file_MP3.mp3">
+        </audio>
+    </div>
+    <div>
+        <video controls width="300" height="300">
+            <source src="mp4/file_example_MP4.mp4">
+        </video>
+    </div>
+    <iframe src="https://getbootstrap.com/docs/5.3/content/tables/#overview" frameborder="0" width="800" height="800"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3mQzvZi5Vyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
