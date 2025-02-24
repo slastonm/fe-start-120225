@@ -1,0 +1,34 @@
+h1,div{
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+}
+h1{
+    background-color: blue;
+}
+.content-block{
+    background-color: yellow;
+    /* padding: 50px; */
+    /* padding: 15px 30px; */
+    /* padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 150px;
+    padding-left: 30px; */
+    /* padding: 50px 45px 150px 30px; */
+    /* margin: 50px; */
+    /* margin-top: 150px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    margin-left: 120px; */
+    /* margin: 50px 100px; */
+    /* auto працює тільки коли є ширина */
+    margin: 50px auto;
+    width: 500px;
+}
+a,button{
+    padding: 50px;
+    background-color: blueviolet;
+    width: 500px;
+    height: 100px;
+    display:inline-block;
+}

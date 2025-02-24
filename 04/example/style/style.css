@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+
+}
+body{
+    /* Background */
+    background: rgb(167, 215, 197);
+}
+form{
+    border-radius: 49.09px;
+    /* Form Bg */
+    background: rgb(246, 251, 249);
+    /* background-color: white; */
+    padding: 57px 63px 82px 53px;
+    /* width: 500px; */
+    width: 698px;
+    /* height: 198px; */
+    /* height: auto; */
+    margin: 100px auto;
+    /* border-radius: 20px; */
+    /* border-top-left-radius: 0;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 40px; */
+    border: 4px solid orange;
+    text-align: center;
+}
+input{
+    /* margin-left: 59px;
+    margin-right: 40px; */
+}
+
+h1{
+    color: rgb(33, 43, 39);
+    font-size: 55.23px;
+    font-weight: 700;
+    line-height: 71.79px;
+    /* letter-spacing: 0; */
+    /* text-align: center; */
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.sub-text{
+    color: rgb(50, 64, 59);
+    /* font-family: Karla; */
+    font-size: 23.01px;
+    font-weight: 400;
+    line-height: 29.91px;
+    margin-top: 0;
+    margin-bottom: 49px;
+}
+.form-input{
+    padding: 32px 33px;
+    width: 575.27px;
+    display: inline-block;
+    /* box-sizing: border-box; */
+    border: 1.53px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.34px;
+    background: rgb(255, 255, 255);
+    }
