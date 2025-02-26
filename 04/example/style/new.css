@@ -1,0 +1,12 @@
+body{
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.bar-code {
+    font-family: "Libre Barcode 39 Extended Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  

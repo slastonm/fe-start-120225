@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200..800&display=swap');
+
 *{
     box-sizing: border-box;
     /* box-sizing: content-box; */
 
 }
+
+/* .karla-200 {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.karla-400 {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.karla-800 {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+} */
 body{
     /* Background */
     background: rgb(167, 215, 197);
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 form{
     border-radius: 49.09px;
@@ -23,7 +48,7 @@ form{
     border-top-right-radius: 120px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 40px; */
-    border: 4px solid orange;
+    /* border: 4px solid orange; */
     text-align: center;
 }
 input{
@@ -45,7 +70,7 @@ h1{
     color: rgb(50, 64, 59);
     /* font-family: Karla; */
     font-size: 23.01px;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 29.91px;
     margin-top: 0;
     margin-bottom: 49px;
@@ -58,4 +83,33 @@ h1{
     border: 1.53px solid rgba(0, 0, 0, 0.1);
     border-radius: 15.34px;
     background: rgb(255, 255, 255);
-    }
+}
+.input-block{
+    margin-bottom: 23px;
+}
+.input-block:last-child{
+    margin-bottom: 32px;
+}
+.form-button{
+    border-radius: 23.01px;
+    background: rgb(132, 199, 174);
+    display: inline-block;
+    /* width: 391.19px; */
+    padding: 23px 73px;
+    color: rgb(255, 255, 255);
+    font-size: 33.75px;
+    font-weight: 700;
+    line-height: 43.87px;
+    border: 1px solid rgb(132, 199, 174);
+    margin-bottom: 17px;
+}
+.form-button:hover{
+    background: rgb(85, 135, 117);
+    border: 1px solid rgb(28, 44, 38);
+}
+p{
+    margin: 0;
+    color: rgb(50, 64, 59);
+    font-size: 21.48px;
+    line-height: 27.92px;
+}
