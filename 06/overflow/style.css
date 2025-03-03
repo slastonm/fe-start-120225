@@ -1,0 +1,31 @@
+.text-block,
+.item{
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    border: 6px solid green;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.item img{
+    width: 500px;
+}
+.description{
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    padding: 25px 0;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.569);
+}
+
+.text-block{
+    font-size: 28px;
+    line-height: 2;
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    overflow-y: auto;
+}

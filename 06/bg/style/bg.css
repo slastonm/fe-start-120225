@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.simple-bg{
+    width: 1512px;
+    height: 812px;
+    background-color: yellow;
+    background-image: url("../img/avatar.png");
+    /* background-image: url("../img/avatar.png"),url("../img/1.webp"); */
+    /* background-repeat: repeat; */
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: top right; */
+    /* background-position: top center; */
+    /* background-position:center; */
+    /* background-position:bottom center; */
+    /* background-position:bottom left; */
+    /* background-position:bottom 100px left 200px; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 250px 250px;
+
+
+
+
+
+    margin: 50px auto;
+    /* padding: 50px; */
+    padding-left: 512px;
+}
+.simple-bg:hover{
+    background-color: orange;
+}
+section{
+    height: 1900px;
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: contain; */
+    background-size: cover;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/sprite-icon-29.jpg");
+}
+.fb{
+    background-position: top 0 left 0;
+}
+.fb:hover{
+    background-position: top -85px left 0;
+}
+
+.linkedin{
+    background-position: top 0 left -337px;
+}
+.linkedin:hover{
+    background-position: top -85px left -337px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+.fb-icon{
+    background-color: darkblue;
+    color: white;
+    border: 3px solid darkblue;
+    padding: 20px;
+    border: 8px;
+    font-size: 24px;
+}
+.fb-icon:hover{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.left{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    /* background-color: transparent; */
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid gray;
+    /* border-radius: 50px; */
+    border-radius: 100%;
+
+}
+.left:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+
+p{
+    font-size: 20px;
+}
