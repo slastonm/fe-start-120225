@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    /* max-width: 1400px; */
+    /* margin: 0 auto; */
+}
+header{
+    padding: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    row-gap: 30px;
+}
+nav a{
+    display: inline-block;
+    font-size: 20px;
+}
+p{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+}
+/* @media screen and (max-width:1000px){
+    header{
+        background-color: rgb(232, 43, 6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 50px;
+    }
+    nav{
+        width: 100%;
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:800px){
+    header{
+        background-color: rgb(24, 6, 2);
+    }
+    .logo{
+        margin-bottom: 30px;
+        background-color: white;
+        color: black;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    p{
+        background-color: rgb(19, 21, 19);
+        color: rgb(169, 241, 13);
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:400px){
+    p{
+        background-color: gray;
+        color: rgb(5, 25, 5);
+        padding: 50px;
+    }
+} */
+.info{
+    background-color: red;
+    color: white;
+    text-align: center;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: none;
+}
+/* .container{
+    display: none;
+} */
+/* @media screen and (min-width:350px) and (max-width:600px){
+    .info{
+        display: flex;
+    }
+    .container{
+        display: none;
+    }
+} */
+
+/* @media (350px <= width <=800px){
+    .info{
+        display: flex;
+    }
+    .container{
+        display: none;
+    }
+} */
+

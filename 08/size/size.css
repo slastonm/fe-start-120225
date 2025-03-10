@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+/* em  1em = font-size parent element */
+/* rem 1rem = root element font-size */
+html,
+body{
+    margin: 0;
+    /* font-size: 25px; 16px  user font size*/
+    text-align: center;
+}
+
+.container{
+    /* font-size: 2em; */
+    /* width: 1200px; */
+    /* width: 50rem;  */
+    /* max-width:1200px ; */
+    width: 62.5%;
+    background-color: orange;
+    /* 50*25px=1250  */
+    margin: 0 auto;
+}
+h1{
+    /* font-size: 50px; */
+    font-size: 2rem;
+    max-width: 50%;
+    background-color: blue;
+}
+p{
+    /* font-size: 25px; */
+    font-size: 1rem;
+}
+button{
+    font-size: inherit;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:1200px){
+    /* h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    } */
+    html,body{
+        font-size: 14px;
+    }
+}
