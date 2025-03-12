@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-wrapper{
+            position: relative;
+        }
+        .input-wrapper::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <div class="input-wrapper">
+                <input type="text" id="search">
+            </div>
+            
+            <label for="search">Search</label>
+        </div>
+        <div>
+            <select name="" id="selectSkill">
+                <option value="1">html</option>
+                <option value="2">Js</option>
+                <option value="3">Css</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
