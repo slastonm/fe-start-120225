@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+@keyframes example {
+  from{
+    background-color: blue;
+    border-radius: 0;
+  }
+  to{
+    background-color: rgb(172, 249, 6);
+    border-radius: 40px;
+  }
+}
+
+@keyframes pro {
+  0% {
+      transform: scale(1);
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      background-color: blue;
+  }
+  25%{
+    transform: scale(1.2);
+    top: 0;
+    left: 800px;
+    background-color: rgb(5, 5, 35);
+  }
+  50% {
+    transform: scale(1);
+    top: 400px;
+    left: 800px;
+    background-color: rgb(9, 120, 76);
+  }
+  75% {
+    transform: scale(1.5);
+    top: 400px;
+    left: 0;
+    background-color: rgb(212, 7, 7);
+  }
+  100% {
+      transform: scale(1);
+      border-radius: 100px;
+      background-color: rgb(154, 236, 11);
+  }
+}
+.simple{
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  position: relative;
+  animation-name: pro;
+  animation-duration: 2s;
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+
+}
+.simple.second{
+  animation-delay: 10s;
+  animation-direction: reverse;
+}
+
+
+
+
+
+
+@keyframes move {
+    from {left: 0px;}
+    to {left: 1800px;}
+  }
+  .animatio-type>div {
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(54, 74, 11);
+    font-weight: bold;
+    position: relative;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  .linear {animation-timing-function: linear}
+  .ease {animation-timing-function: ease;}
+  .ease-in {animation-timing-function: ease-in;}
+  .ease-out {animation-timing-function: ease-out;}
+  .ease-in-out {animation-timing-function: ease-in-out;}
+  .custom{
+    animation-timing-function: cubic-bezier(0,.69,.41,.95);
+  }

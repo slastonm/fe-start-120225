@@ -1,0 +1,10 @@
+/* .container.shop-container{
+    max-width: 1500px;
+}
+@media(min-width:500px){
+.container.shop-container{max-width: 120%;}
+    
+} */
+ footer{
+    background-color: green;
+ }
